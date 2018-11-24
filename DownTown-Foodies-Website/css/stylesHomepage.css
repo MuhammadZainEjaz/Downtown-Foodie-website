@@ -1,0 +1,166 @@
+.container{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+body{
+    background-color: #191818;
+}
+
+/*  ----------------- HEADER ---------------------*/
+#main-header{
+    width: 100%;
+    min-height: 600px;
+    background-image: url("../images/headerImage.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: -200px;
+    margin: auto;
+}
+
+#main-header h1{
+    font-family: "Matura MT Script Capitals";
+    color: #eda60d;
+    font-size: 5em;
+    position: relative;
+    left: 15%;
+    top: 20px;
+    box-sizing: border-box;
+}
+
+#main-header h2{
+    font-family: sans-serif;
+    color: #eda60d;
+    position: relative;
+    left: 30%;
+    size: auto;
+}
+
+/* ------------- Primary Calls To Action center --------------*/
+
+#primaryCallsToAction{
+    width: 100%;
+    height: 400px;
+    margin: auto;
+}
+
+.menuArtical{
+    float: left;
+    width: 30%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 0px 30px;
+    line-height: 1.6em;
+    border: 1px solid black;
+    background-color: #845d06;
+}
+.menuArtical h2{
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.menuArtical p{
+    text-align: justify;
+}
+
+.menuArtical span{
+    font-style: italic;
+    color: #eda60d;
+}
+
+.menuActionCenter{
+    float: left;
+    width: 70%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 0px 30px;
+   /* line-height: 1.6em;*/
+    border: 1px solid black;
+    border-left: none;
+    background-image: url("../images/menuactioncenter.jpg");
+    background-size: 100%;
+}
+
+.menuActionCenter h3{
+    color: #eda60d;
+    width: 50%;
+    position: relative;
+    text-align: left;
+    font-size: 2em;
+    font-weight: bolder;
+    border: 1px solid white;
+}
+
+.buttons{
+    padding: 5px 20px;
+    background-color: #eda60d;
+    color: white;
+    border: none;
+
+}
+
+/* -----------------Register------------------------- */
+
+.register{
+    width: 50%;
+    height: 40px;
+    background-color: red;
+    margin-top: 30px;
+}
+
+.registerparagraph{
+    float: left;
+    width: 75%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.register p{
+    color: white;
+    word-spacing: 10px;
+    height: 100%;
+    margin: 0px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.register span{
+    font-style: italic;
+    color: #eda60d;
+}
+
+.registerbutton{
+    float: left;
+    height: 100%;
+}
+
+.buttons-register{
+    height: 100%;
+    padding: 5px 20px;
+    background-color: #eda60d;
+    margin: 8px 0px 0px;
+    color: white;
+    border: none;
+}
+
+/* ------------------Homepage Video --------------------------*/
+.homePage-video{
+    width: 50%;
+    height: 315px;
+    margin-top: 30px;
+}
+
+/*-------------- Footer ----------------*/
+
+#main-footer{
+    width: 100%;
+    height: 100%;
+}
+
+.footerText{
+    color: #eda60d;
+    margin-left: 40%;
+    font-size: 100%;
+}

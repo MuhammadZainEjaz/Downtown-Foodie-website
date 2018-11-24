@@ -1,0 +1,75 @@
+.clr{
+    clear: both;
+}
+
+.navigation{
+    width: 100%;
+    height: 50px;
+    background-color: #191818;
+    margin: auto;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: #848181;
+}
+
+.navigation ul{
+    list-style: none;
+    padding: 10px 0px 0px 0px;
+    margin: 0;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.navigation li{
+    display: inline;
+    color: #eda60d;
+    padding-right: 10px;
+}
+
+.navigation-left{
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+
+.navigation-left-D{
+    height: 100%;
+    width: 100%;
+    font-family: "Matura MT Script Capitals";
+    position: relative;
+    color: #eda60d;
+    font-size: 1.3em;
+    padding: 10px 0px 0px 0px;
+    margin: 0px 0px 0px 10px;
+    box-sizing: border-box;
+}
+
+.navigation-center{
+    float: left;
+    padding-left: 10%;
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.navigation-center-pipefont{
+    font-size: 20px;
+}
+
+.navigation-right{
+    float: right;
+    width: 15%;
+    height: 100%;
+    /*   margin-right: 10px;*/
+}
+
+#registerLink{
+    margin-top: 5px; !important;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    background-color: #eda60d;
+    color: white;
+}
