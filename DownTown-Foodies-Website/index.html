@@ -3,35 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <title>HomePage</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/stylesHomepage.css">
     <link rel="stylesheet" type="text/css" href="css/navbar.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 </head>
 <body>
+
 <header class="navigation">
-    <div class="navigation-left">
-       <a href="index.html"> <h3 class="navigation-left-D"> <i class="fas fa-home"></i> DownTown Foodies</h3> </a>
+    <div class="navigation-left navbarLeft">
+       <a href="index.html"> <h3 class="navigation-left-D"> <i class="fas fa-home"></i> <span class="text-12 text-6">DownTown Foodies</span> </h3> </a>
     </div>
-    <div class="navigation-center">
+    <div class="navigation-center navbarCenter">
         <ul>
-            <li> <a href="#"> <i class="fas fa-utensils"></i> MENU </a> </li>
+            <li> <a href="#"> <i class="fas fa-utensils"></i> <span class="text-12 text-6 text-4">MENU </span> </a> </li>
             <li class="navigation-center-pipefont"> | </li>
-            <li> <a href="aboutUs.html"> ABOUT </a> </li>
+            <li> <a href="aboutUs.html"> <i class="fas fa-utensils"></i> <span class="text-12 text-6 text-4">ABOUT </span> </a> </li>
             <li class="navigation-center-pipefont"> | </li>
-            <li> <a href="Contact.html"> CONTACT </a> </li>
+            <li> <a href="Contact.html"> <i class="fas fa-utensils"></i> <span class="text-12 text-6 text-4">CONTACT </span></a> </li>
             <!--<li class="navigation-center-pipefont"> | </li>-->
         </ul>
     </div>
-    <div class="navigation-right">
+    <div class="navigation-right navbarRight">
         <ul>
-            <li> <a href="login.html">LogIn</a></li>
-            <li> <a href="SignUp.html" id="registerLink">Register</a> </li>
+            <li> <a href="login.html"> <i class="fas fa-utensils"></i> <span class="text-12  text-4">LogIn</span></a></li>
+            <li> <a href="SignUp.html" id="registerLink" class="registerLink1"> <i class="fas fa-utensils"></i> <span class="text-12 text-4">Register</span> </a> </li>
         </ul>
     </div>
     <div class="clr"> </div>
 </header>
 
-<div id="main-header">
+<div class="main-header">
     <div class="container">
         <h1> DownTown Foodies </h1>
         <h2> Taste you will never forget.</h2>
@@ -60,22 +62,34 @@
     <div class="clr"></div>
 </div>
 
-<div class="register">
-    <div class="registerparagraph">
-        <p> Not yet Registered? Register Now for <span> FREE </span>  </p>
+<div class="supportingData">
+    <div class="section">
+        <div class="register">
+            <div class="registerparagraph">
+                <p> Not yet Registered? Register Now for <span> FREE </span>  </p>
+            </div>
+            <div class="registerbutton">
+                <form action="#">
+                    <input type="submit" value="Register" class="buttons-register">
+                </form>
+            </div>
+            <div class="clr"></div>
+        </div>
+
+        <div class="clr"></div>
+
+        <div class="homePage-video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/UqyD2PgOw9Q" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="">
+            </iframe>
+        </div>
     </div>
-    <div class="registerbutton">
-        <form action="#">
-            <input type="submit" value="Register" class="buttons-register">
-        </form>
+    
+    <div class="whats-new">
+        <img src="images/menuactioncenter.jpg">
     </div>
     <div class="clr"></div>
 </div>
-
-<div class="homePage-video">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/UqyD2PgOw9Q" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="">
-    </iframe>
-</div>
+<div class="clr"></div>
 
 <footer id="main-footer">
     <hr>
