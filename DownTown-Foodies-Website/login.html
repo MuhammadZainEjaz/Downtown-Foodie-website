@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link href="bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="navbar.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+    <style type="text/css" >
+        .bg {
+           /* background: url(login1.jpg) no-repeat;*/
+            /*background-color: #0c5460;*/
+            width: 100%;
+            height: 100%;
+        }
+        #log
+        {
+            border:2px solid white;
+            padding:60px 40px;
+            margin-top:200px;
+            background:rgba(0,0,0,0.5);
+
+        }
+        h1{
+            color:white;
+            font-weight: bolder;
+        }
+        label{
+            font-size:20px;
+            color:white;
+        }
+        body{
+
+            background:url('http://www.mandolinistibustesi.it/wp-content/uploads/2015/08/sfondo_nero.jpeg');
+            background-repeat:no-repeat;
+            /*background-image: url("login1.jpg") ;
+            background-repeat: no-repeat;*/
+             margin:0;
+    padding:0;
+
+
+    background-size:cover;
+    font-family: sans-serif;
+       }
+        #log a
+        {
+            color:whitesmoke;
+            font-size:20px;
+            font-weight:bold;
+        }
+        .facebook
+        {
+            background-color: #32508e;;
+        }
+        button.social
+        {
+            margin-bottom:20px;
+            width:170px;
+            height:36px;
+            border:none;
+            border-radius:5px;
+            color:#fff;
+            font-family:sans-serif;
+            font-weight:500;
+            transition:0.2s ease;
+            cursor:pointer;
+        }
+
+
+    </style>
+</head>
+<body>
+<header class="navigation">
+    <div class="navigation-left navbarLeft">
+        <a href="index.html"> <h3 class="navigation-left-D"> <i class="fas fa-home"></i> <span class="text-12 text-6">DownTown Foodies</span> </h3> </a>
+    </div>
+    <div class="navigation-center navbarCenter">
+        <ul>
+            <li> <a href="#"> <i class="fas fa-utensils"></i> <span class="text-12 text-6 text-4">MENU </span> </a> </li>
+            <li class="navigation-center-pipefont"> | </li>
+            <li> <a href="aboutUs.html"> <i class="fas fa-utensils"></i> <span class="text-12 text-6 text-4">ABOUT </span> </a> </li>
+            <li class="navigation-center-pipefont"> | </li>
+            <li> <a href="Contact.html"> <i class="fas fa-utensils"></i> <span class="text-12 text-6 text-4">CONTACT </span></a> </li>
+            <!--<li class="navigation-center-pipefont"> | </li>-->
+        </ul>
+    </div>
+    <div class="navigation-right navbarRight">
+        <ul>
+            <li> <a href="login.html"> <i class="fas fa-utensils"></i> <span class="text-12  text-4">LogIn</span></a></li>
+            <li> <a href="SignUp.html" id="registerLink" class="registerLink1"> <i class="fas fa-utensils"></i> <span class="text-12 text-4">Register</span> </a> </li>
+        </ul>
+    </div>
+    <div class="clr"> </div>
+</header>
+
+<div class="container-fluid bg">
+    <div class="row">
+        <div class="col-md-4 col-sm-4 col-xs-12"></div>
+        <div class="col-md-4 col-sm-4 col-xs-12">
+            <form id="log">
+                <h1>Login</h1>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" class="form-control" placeholder="Email">
+
+                </div>
+                <div class="form-group">
+                    <label>Password</label>
+                    <input type="Password" class="form-control" placeholder="Password">
+
+                </div>
+                <div class="checkbox">
+                    <label> <input type="checkbox"> Remember me </label>
+                </div>
+                <div><a href="reset.html"> Forget Password?</a><br>
+                </div><br>
+                <button type="submit" class="btn btn-success "> Sign in </button><br><br>
+                <button class="social facebook">Login with Facebook </button>
+
+
+            </form>
+        </div>
+
+       <!-- <div class="col-md-4 col-sm-4 col-xs-12"></div>
+-->
+
+    </div>
+</div>
+<footer id="main-footer">
+    <hr>
+    <div class="footerText">
+        <h4> copyright ©| 2018  </h4>
+        <h4> All rigths are reserved</h4>
+    </div>
+</footer>
+</body>
+</html>
