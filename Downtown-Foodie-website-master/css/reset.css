@@ -1,0 +1,33 @@
+.bg {
+
+            width: 100%;
+            height: 100%;
+        }
+        #log
+        {
+
+            border:2px solid white;
+            padding:60px 40px;
+            margin-top:200px;
+            background:rgba(0,0,0,0.5);
+
+
+        }
+        #log h1{
+            color:white;
+            font-weight: bolder;
+        }
+        label{
+            font-size:20px;
+            color:white;
+        }
+        body{
+            background:url('http://www.mandolinistibustesi.it/wp-content/uploads/2015/08/sfondo_nero.jpeg');
+            background-repeat:no-repeat;
+            margin:0;
+            padding:0;
+
+
+            background-size:cover;
+            font-family: sans-serif;
+        }

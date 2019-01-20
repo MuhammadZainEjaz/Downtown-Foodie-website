@@ -1,0 +1,310 @@
+.clr{
+    clear: both;
+}
+
+.navigation{
+    width: 100%;
+    height: 50px;
+    background-color: #191818;
+    margin: auto;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: #848181;
+}
+
+.navigation ul{
+    list-style: none;
+    padding: 10px 0px 0px 0px;
+    margin: 0;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.navigation li{
+    display: inline;
+    color: #eda60d;
+    padding-right: 10px;
+}
+
+.navigation-left{
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+
+.navigation-left-D{
+    height: 100%;
+    width: 100%;
+    font-family: "Matura MT Script Capitals";
+    position: relative;
+    color: #eda60d;
+    font-size: 1.3em;
+    padding: 10px 0px 0px 0px;
+    margin: 0px 0px 0px 10px;
+    box-sizing: border-box;
+}
+
+.navigation-center{
+    float: left;
+    padding-left: 10%;
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.navigation-center-pipefont{
+    font-size: 20px;
+}
+
+.navigation-right{
+    float: right;
+    width: 15%;
+    height: 100%;
+    box-sizing: border-box;
+    /*   margin-right: 10px;*/
+}
+
+
+/*-------------- Footer ----------------*/
+
+#main-footer{
+    width: 100%;
+    height: 100%;
+}
+
+.footerText{
+    color: #eda60d;
+    margin-left: 40%;
+    font-size: 100%;
+}
+
+ /******************* BootStrap ***************************/
+
+@media only screen and (max-width: 500px){
+    .navbarLeft{
+        width: 10%;
+    }
+
+    .text-12{
+        display: none;
+    }
+
+    .navbarCenter{
+        padding-left: 20%;
+        font-size: 50%;
+        width: 60%;
+    }
+
+    .navbarCenter i{
+        color: #eda60d;
+        font-size: large;
+    }
+    .navbarRight{
+        padding-left: 5%;
+        padding-top: 2px;
+        font-size: small;
+        width: 20%;
+    }
+
+    .navbarRight i{
+        color: #eda60d;
+        font-size: large;
+    }
+
+}
+
+@media only screen and (min-width: 500px){
+    .navbarLeft{
+        width: 10%;
+    }
+
+    .text-12{
+        display: none;
+    }
+    .navbarCenter{
+        padding-left: 15%;
+        font-size: small;
+        width: 70%;
+    }
+
+    .navbarCenter i{
+        color: #eda60d;
+        font-size: large;
+    }
+    .navbarRight{
+        padding-left: 5%;
+        padding-top: 2px;
+        font-size: small;
+        width: 20%;
+    }
+
+    .navbarRight i{
+        color: #eda60d;
+        font-size: large;
+    }
+
+    #registerLink{
+        margin-top: 5px; !important;
+        width: 100%;
+        height: 100%;
+        padding: 15px;
+        background-color: #eda60d;
+        color: white;
+    }
+    #registerLink i{
+        color: white;
+    }
+}
+
+@media only screen and (min-width: 700px){
+    .navbarLeft{
+        width: 10%;
+    }
+
+    .text-4{
+        display: unset;
+    }
+
+    .navbarCenter{
+        padding-left: 15%;
+        font-size: medium;
+        width: 60%;
+    }
+
+    .navbarCenter i{
+        color: #eda60d;
+        font-size: large;
+    }
+    .navbarRight{
+        padding-left: 7%;
+        padding-top: 2px;
+        padding-right: auto;
+        font-size: medium;
+        width: 30%;
+    }
+
+    .navbarRight i{
+        color: #eda60d;
+        font-size: medium;
+    }
+
+    #registerLink{
+        margin-top: 5px; !important;
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        background-color: #eda60d;
+        color: white;
+    }
+    #registerLink i{
+        color: white;
+    }
+
+
+    .footerText{
+        font-size: 2em;
+        margin-left: 30%;
+    }
+}
+
+@media only screen and (min-width: 900px){
+    .navbarLeft{
+        width: 30%;
+        font-size: medium;
+    }
+
+    .text-6{
+        display: unset;
+    }
+
+    .navbarCenter{
+        padding-left: 10%;
+        font-size: medium;
+        width: 50%;
+    }
+
+    .navbarCenter i{
+        color: #eda60d;
+        font-size: large;
+    }
+    .navbarRight{
+        padding-left: 3%;
+        padding-top: 2px;
+        padding-right: auto;
+        font-size: medium;
+        width: 20%;
+    }
+
+    .navbarRight i{
+        color: #eda60d;
+        font-size: medium;
+    }
+
+    #registerLink{
+        margin-top: 5px; !important;
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        background-color: #eda60d;
+        color: white;
+    }
+    #registerLink i{
+        color: white;
+    }
+
+    .footerText{
+         margin-left: 35%;
+    }
+}
+
+@media only screen and (min-width: 1100px){
+    .navbarLeft{
+        width: 30%;
+        font-size: large;
+    }
+
+    .text-6{
+        display: unset;
+    }
+
+    .navbarCenter{
+        padding-left: 7%;
+        font-size: large;
+        width: 50%;
+    }
+
+    .navbarCenter i{
+        color: #eda60d;
+        font-size: large;
+    }
+    .navbarRight{
+        padding-left: 3%;
+        padding-top: 2px;
+        padding-right: auto;
+        font-size: large;
+        width: 20%;
+    }
+
+    .navbarRight i{
+        color: #eda60d;
+        font-size: large;
+    }
+
+    #registerLink{
+        margin-top: 5px; !important;
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        background-color: #eda60d;
+        color: white;
+    }
+    #registerLink i{
+        color: white;
+    }
+
+    .footerText{
+        margin-left: 40%;
+    }
+}

@@ -1,0 +1,56 @@
+#main {
+    /* add CmeSS here */
+    margin:0;
+    padding:0;
+    background-size:cover;
+
+}
+.text-center {
+
+    FONT-STYLE: italic;
+    text-align: center;
+    font-size: 25px;
+    color: #6a6bff;
+
+}
+.text
+{
+    text-align: center;
+}
+.contact_form  > h4
+{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+.row>.form_container >.contact_form>.button
+{
+    size: 30px;
+    color: black;
+    padding:20px 10px;
+    border-radius: 50px;
+
+
+}
+.button
+{
+    width: 98%;
+    height: 50%;
+    background-color: rgba(240,240,240,0.4);
+    margin: 3px;
+    border: solid black 1px;
+    padding: 5px;
+    color: white;
+}
+.button:hover
+{
+    background-color: rgba(230,230,230,0.7);
+    color: black;
+}
+.image
+{
+    padding:20px 10px;
+    border-radius: 50px;
+
+}
