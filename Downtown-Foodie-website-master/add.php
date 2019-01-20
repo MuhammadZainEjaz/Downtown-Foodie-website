@@ -34,10 +34,8 @@
 </head>
 <body>
 <form action="add.php" method="post">
-    <h1>ADD NEW DATA</h1>
-    Name:<input type="text" name="user">
-    Email:<input type="mail" name="mail">
-    Password:<input type="password" name="pass">
+    <h1>ADD New Headings</h1>
+    Heading:<input type="text" name="user">
     <input type="submit" name="submit" value="enter">
 </form>
 </body>

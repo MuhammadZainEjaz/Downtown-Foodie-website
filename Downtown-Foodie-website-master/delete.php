@@ -6,7 +6,7 @@
 ?>
 <head>
     <meta charset="UTF-8">
-    <title>ADD</title>
+    <title>Delete</title>
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
@@ -34,9 +34,9 @@
 </head>
 <body>
 <form action="add.php" method="post">
-    <h1>Delete By ID</h1>
+    <h1>Delete Heading</h1>
 
-    ID:<input type="text" name="user">
+    Heading:<input type="text" name="user">
     <input type="submit" name="submit" value="enter">
 </form>
 </body>

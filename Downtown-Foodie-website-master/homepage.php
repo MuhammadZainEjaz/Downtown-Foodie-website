@@ -20,7 +20,7 @@
         <a href="add.php">ADD<br><br></a>
         <a href="update.php">UPDATE<br><br></a>
         <a href="delete.php"> DELETE<br><br></a>
-        <a href="photos/videos.php"> MANAGE PHOTOS/VIDEOS<br><br></a>
+        <a href="imgs.php"> MANAGE PHOTOS/VIDEOS<br><br></a>
     </ul>
 </div>
 </body>
