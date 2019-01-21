@@ -1,5 +1,18 @@
 <?php
-
+require_once "../server/connectDB.php";
+if (isset($_POST["upload_image"])){
+    $file_name = $_FILES["new_img"]["name"];
+    if ($file_name == NULL){
+        echo "please Enter a valid data";
+    }
+    else{
+        $file_tmp_name = $_FILES["new_img"]["tmp_name"];
+        $destination_to_upload_file = "../images/".$file_name;
+        move_uploaded_file($file_tmp_name, $destination_to_upload_file);
+        $query = "insert into images (image_id, image_address) values (NULL, '$file_name')";
+        mysqli_query($connection, $query);
+    }
+}
 ?>
 
 <!DOCTYPE html>
