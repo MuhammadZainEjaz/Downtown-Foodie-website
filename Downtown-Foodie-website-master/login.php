@@ -9,7 +9,7 @@ require_once "Header Footer/headerfooter.php"
     <title>Login</title>
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/login.css" media="screen" />
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="bootstrap.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/navbar.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
@@ -38,7 +38,7 @@ header_code();
                 <div class="checkbox">
                     <label> <input type="checkbox"> Remember me </label>
                 </div>
-                <div><a href="reset.php"> Forget Password?</a><br>
+                <div><a href="reset.html"> Forget Password?</a><br>
                 </div><br>
                 <button type="submit" class="btn btn-success "> Sign in </button><br><br>
                 <button class="social facebook">Login with Facebook </button>

@@ -1,5 +1,15 @@
 <?php
-    require_once "Header Footer/headerfooter.php"
+    require_once "server/connectDB.php";
+    require_once "Header Footer/headerfooter.php";
+
+    function get_image_address_from_database($number){
+        global $connection;
+        $query = "select image_id from homepage where post_id=".$number;
+        $image_id = mysqli_fetch_assoc(mysqli_query($connection, $query));
+        $query = "select image_address from images where image_id=".$image_id['image_id'];
+        $image_address = mysqli_fetch_assoc(mysqli_query($connection, $query));
+        return $image_address;
+    }
 ?>
 
 <!DOCTYPE html>
@@ -8,7 +18,7 @@
     <meta charset="UTF-8">
     <title>HomePage</title>
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/stylesHomepage.css">
+    <link rel="stylesheet" type="text/css" href="css/stylesHomepage.php">
     <link rel="stylesheet" type="text/css" href="css/navbar.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 </head>
@@ -68,7 +78,9 @@
     </div>
 
     <div class="whats-new">
-        <img src="images/menuactioncenter.jpg">
+        <?php
+            echo "<img src='images/".get_image_address_from_database(3)['image_address']."'>"
+        ?>
     </div>
     <div class="clr"></div>
 </div>
