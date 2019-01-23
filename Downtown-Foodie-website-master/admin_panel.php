@@ -1,87 +1,83 @@
 <?php
-/*require_once "connection.php";
-*/?>
+/*require_once "connection.php";*/
+require_once "Header Footer/headerfooter.php"
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title> Admin Panel</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/admin_panel.css">
+    <link rel="stylesheet" type="text/css" href="css/navbar.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bangers|Old+Standard+TT">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+    <title>Admin Panel</title>
     <style>
+        h3{
+            font-size: 30px;
+        }
+
         body{
-            margin:0px;
-            border:0px;
-
-        }
-        #header
-        {
-            width:100%;
-            height:150px;
-            background:black;
-            color:white;
-
-
-        }
-        #sidebar
-        {
-            width:300px;
-            height:400px;
             background:darkslategray;
-            float:left;
+            background-repeat: no-repeat;
         }
-        #data
-        {
-            height:870px;
-            background:darkslategray;
-            color:White;
-            font-size:60px;
-            padding:70px;
-            left:40%;
+        li{
+            font-size: 25px;
+            color:Black;
         }
-        #admin
-        {
-            height:130px;
-            background:white;
-            border-radius: 80px;
-        }
-        ul  {
-            padding:30px;
-            font-size:25px;
-            border-radius: 20px;
-            color: white;
-
-            /*border-bottom:10px black;*/
-        }
-        ul :hover
-        {
-            background:darkgrey;
-            color:white;
+        img{
+            vertical-align: middle;
+            height:100px;
+            border-style:none;
         }
 
+        * {
+            font-family: 'Old Standard TT', serif;
+        }
     </style>
-
-
 </head>
+<?php
+header_code();
+?>
+
 <body>
-<div id="header">
-    <center>
-        <img src="images/admin.png" alt="admin" id="admin"><br>
-    </center>
+<div class="wrapper">
+    <nav id="sidebar">
+        <div class="sidebar-header">
+            <h3><img src="images/admin.png"> Admin Panel</h3>
+        </div>
+
+        <ul class="list-unstyled components">
+            <li>
+                <a href="admin/customise_homepage.php">
+                    <i class="fas fa-plus"></i> Customize Homepage
+                </a>
+            </li>
+            <li>
+                <a href="admin/upload_images.php">
+                    <i class="fas fa-sitemap"></i> Manage Images
+                </a>
+            </li>
+            <li>
+                <a href="login.php">
+                    <i class="fa fa-sign-out-alt"></i> Admin logout</a>
+            </li>
+        </ul>
+
+    </nav>
+
 
 </div>
-<div id="sidebar">
-    <ul>
-       <a href="" Homepage<br><br>
-        <!--<a href="add.php" > Add <br><br></a>
 
-        Update<br><br>
-        Manage Photos/Videos<br><br>-->
-    </ul>
-
-</div>
-<div id="data">
-    <center>Hello, Welcome to an Admin Panel<br>Proceed with caution.!!</center>
-
-</div>
+<?php
+footer_code();
+?>
 </body>
 </html>
+
 
 
