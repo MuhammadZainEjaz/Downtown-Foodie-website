@@ -1,7 +1,12 @@
 <?php
 /*require_once "connection.php";*/
-require_once "Header Footer/headerfooter.php"
-
+require_once "Header Footer/headerfooter.php";
+if (session_status() == PHP_SESSION_NONE){
+    session_start();
+}
+if (!isset($_SESSION['admin_email'])){
+    die("You are not admin.");
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -16,29 +21,29 @@ require_once "Header Footer/headerfooter.php"
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
     <title>Admin Panel</title>
-    <style>
-        h3{
-            font-size: 30px;
-        }
-
-        body{
-            background:darkslategray;
-            background-repeat: no-repeat;
-        }
-        li{
-            font-size: 25px;
-            color:Black;
-        }
-        img{
-            vertical-align: middle;
-            height:100px;
-            border-style:none;
-        }
-
-        * {
-            font-family: 'Old Standard TT', serif;
-        }
-    </style>
+<!--    <style>-->
+<!--        h3{-->
+<!--            font-size: 30px;-->
+<!--        }-->
+<!---->
+<!--        body{-->
+<!--            background:darkslategray;-->
+<!--            background-repeat: no-repeat;-->
+<!--        }-->
+<!--        li{-->
+<!--            font-size: 25px;-->
+<!--            color:Black;-->
+<!--        }-->
+<!--        img{-->
+<!--            vertical-align: middle;-->
+<!--            height:100px;-->
+<!--            border-style:none;-->
+<!--        }-->
+<!---->
+<!--        * {-->
+<!--            font-family: 'Old Standard TT', serif;-->
+<!--        }-->
+<!--    </style>-->
 </head>
 <?php
 header_code();
